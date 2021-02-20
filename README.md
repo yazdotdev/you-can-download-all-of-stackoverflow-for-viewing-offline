@@ -1,45 +1,17 @@
-# you can download all of stackoverflow for viewing offline
 - you can download all of [stackoverflow](https://stackoverflow.com/) to consult while offline
     - official [page](https://archive.org/details/stackexchange) from [internet archive](https://archive.org/) that includes all stackexchange sites and not just stackoverflow
     - download [page](https://archive.org/download/stackexchange) with list of files which includes one for stackoverflow
     - files are primarily in [7Z format](https://en.wikipedia.org/wiki/7z)
     - the [file](https://archive.org/download/stackexchange/stackoverflow.com-Posts.7z) for stackoverflow posts stands at around 16GB right now
-    - you can explore and support the repos from [@internetarchive](https://github.com/internetarchive) 
-    - what are some other archiving organisations
-        - [@iipc](https://github.com/iipc) which stands for International Internet Preservation Consortium
-            - available at http://netpreserve.org/
-    - what are some interesting archiving repos
-        - [22120](https://github.com/c9fe/22120) - A non-WARC-based tool which hooks into the chrome browser and archives everything you browse making it available for offline replay. *(In Development)*
-        - [ArchiveBox](https://github.com/pirate/ArchiveBox) - A tool which maintains an additive archive from RSS feeds, bookmarks, and links using wget, chrome headless, and other methods (formerly `Bookmark Archiver`). *(In Development)*
-        - [archivenow](https://github.com/oduwsdl/archivenow) - A [Python library](http://ws-dl.blogspot.com/2017/02/2017-02-22-archive-now-archivenow.html) to push web resources into on-demand web archives. *(Stable)*
-        - [Brozzler](https://github.com/internetarchive/brozzler) - A distributed web crawler (爬虫) that uses a real browser (chrome or chromium) to fetch pages and embedded urls and to extract links. *(Stable)*
-        - [Cairn](https://github.com/wabarc/cairn) - A npm package and CLI tool for saving webpages. *(Stable)*
-        - [Chronicler](https://github.com/CGamesPlay/chronicler) - Web browser with record and replay functionality. *(In Development)*
-        - [Crawl](https://git.autistici.org/ale/crawl) - A simple web crawler in Golang. *(Stable)*
-        - [crocoite](https://github.com/promyloph/crocoite) - Crawl websites using headless Google Chrome/Chromium and save resources, static DOM snapshot and page screenshots to WARC files. *(In Development)*
-        - [F(b)arc](https://github.com/justinlittman/fbarc) - A commandline tool and Python library for archiving data from [Facebook](https://www.facebook.com/) using the [Graph API](https://developers.facebook.com/docs/graph-api). *(Stable)*
-        - [freeze-dry](https://github.com/WebMemex/freeze-dry) - JavaScript library to turn page into static, self-contained HTML document; useful for browser extensions. *(In Development)*
-        - [grab-site](https://github.com/ArchiveTeam/grab-site) - The archivist's web crawler: WARC output, dashboard for all crawls, dynamic ignore patterns. *(Stable)*
-        - [Heritrix](https://github.com/internetarchive/heritrix3/wiki) - An open source, extensible, web-scale, archival quality web crawler. *(Stable)*
-            - [Heritrix Walkthrough](https://github.com/web-archive-group/heritrix-walkthrough) *(In Development)*
-        - [html2warc](https://github.com/steffenfritz/html2warc) - A simple script to convert offline data into a single WARC file. *(Stable)*
-        - [HTTrack](http://www.httrack.com/) - An open source website copying utility. *(Stable)*
-        - [monolith](https://github.com/Y2Z/monolith) - CLI tool to save a web page as a single HTML file. *(Stable)*
-        - [Obelisk](https://github.com/go-shiori/obelisk) - Go package and CLI tool for saving web page as single HTML file. *(Stable)*
-        - [SingleFile](https://github.com/gildas-lormeau/SingleFile) - Browser extension for Firefox/Chrome and CLI tool to save a faithful copy of a complete page as a single HTML file. *(Stable)*
-        - [SiteStory](http://mementoweb.github.com/SiteStory/) - A transactional archive that selectively captures and stores transactions that take place between a web client (browser) and a web server. *(Stable)*
-        - [Social Feed Manager](https://gwu-libraries.github.io/sfm-ui/) - Open source software that enables users to create social media collections from Twitter, Tumblr, Flickr, and Sina Weibo public APIs. *(Stable)*
-        - [Squidwarc](https://github.com/N0taN3rd/Squidwarc) - An [open source, high-fidelity, page interacting](http://ws-dl.blogspot.com/2017/07/2017-07-24-replacing-heritrix-with.html) archival crawler that uses Chrome or Chrome Headless directly. *(In Development)*
-        - [StormCrawler](http://stormcrawler.net/) - A collection of resources for building low-latency, scalable web crawlers on Apache Storm. *(Stable)*
-        - [twarc](https://github.com/docnow/twarc) - A command line tool and Python library for archiving Twitter JSON data. *(Stable)*
-        - [WARCreate](http://matkelly.com/warcreate/) - A [Google Chrome](https://www.google.com/intl/en/chrome/browser/) extension for archiving an individual webpage or website to a WARC file. *(Stable)*
-        - [Warcworker](https://github.com/peterk/warcworker) - An open source, dockerized, queued, high fidelity web archiver based on Squidwarc with a simple web GUI. *(Stable)*
-        - [WAIL](https://github.com/machawk1/wail) - A graphical user interface (GUI) atop multiple web archiving tools intended to be used as an easy way for anyone to preserve and replay web pages; [Python](https://machawk1.github.io/wail/), [Electron](https://github.com/n0tan3rd/wail). *(Stable)*
-        - [Web2Warc](https://github.com/helgeho/Web2Warc) - An easy-to-use and highly customizable crawler that enables anyone to create their own little Web archives (WARC/CDX). *(Stable)*
-        - [WebMemex](https://github.com/WebMemex) - Browser extension for Firefox and Chrome which lets you archive web pages you visit. *(In Development)*
-        - [Webrecorder](https://webrecorder.io/) - Create high-fidelity, interactive recordings of any web site you browse. *(Stable)*
-        - [Wget](http://www.gnu.org/software/wget/) - An open source file retrieval utility that of [supports writing warcs](http://www.archiveteam.org/index.php?title=Wget_with_WARC_output) 
-        - [Wget-lua](https://github.com/alard/wget-lua) - Wget with Lua extension. *(Stable)*
-        - [Wpull](https://github.com/chfoo/wpull) - A Wget-compatible (or remake/clone/replacement/alternative) web downloader and crawler. *(Stable)*
-       
-       
+    - what are some repos to help process the data dump after download
+        - you can view and search with this [repo](https://github.com/Caspia/seekoff)
+        - you can import and convert to sql via these [gists](https://gist.github.com/gousiosg/7600626)
+        - you can create a graphql endpoint via this [repo](https://github.com/snimmagadda1/stack-exchange-graphql-server)
+        - you can always explore repos from [@internetarchive](https://github.com/internetarchive) 
+        - it would be nice to use something like the [how2 repo](https://github.com/santinic/how2)
+            - it allows you to use natural language to ask technical questions right from the terminal
+            - unfortunately currently you must be online
+                - as how2 needs access to the stackoverflow internet api
+            - if how2 could instead be connected to the data dump
+                - and requests rerouted to data dump instead of internet
+                - that would truly be awesome
