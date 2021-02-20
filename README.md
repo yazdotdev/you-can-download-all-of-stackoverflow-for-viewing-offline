@@ -1,5 +1,4 @@
-# you-can-download-all-of-stackoverflow-for-viewing-offline
-you can download all of stackoverflow for viewing offline
+# you can download all of stackoverflow for viewing offline
 
 - you can download all of stackoverflow to consult while offline
     - official [page](https://archive.org/details/stackexchange) from [internet archive](https://archive.org/) that includes all stackexchange sites and not just stackoverflow
